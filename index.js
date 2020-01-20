@@ -27,7 +27,6 @@ fs.readdirSync(projectPath).forEach(filename=>{
                 x = region.points[0].x;
                 y = region.points[0].y;
                 outputFile = outputPath + '/' + region.id + tFile.asset.name;
-                console.log(sourcePath + '/' + tFile.asset.name)
                 Clipper(sourcePath + '/' + tFile.asset.name, function () {
                     this.crop(x, y, width, height)
                         .toFile(outputFile, function () {
