@@ -1,5 +1,21 @@
 {
-  "sourcePath": "C:\\Users\\alexa\\Desktop\\VOTT\\sourceImages",
-  "projectPath": "C:\\Users\\alexa\\Desktop\\VOTT\\driverLicenses",
-  "outputPath": "C:\\Users\\alexa\\Desktop\\VOTT\\Output"
+  "projectPath": "/home/ezhov/Рабочий стол/tst/VOTT/driverLicenses",
+  "output": [
+    {
+      "path": "/home/ezhov/Рабочий стол/tst/VOTT/Output/text",
+      "tags": ["last_name", "first_name", "middle_name", "birth_area", "issue_place","issue_area"]
+    },
+    {
+      "path": "/home/ezhov/Рабочий стол/tst/VOTT/Output/num",
+      "tags": ["birth_date","start_date","end_date","number"]
+    },
+    {
+      "path": "/home/ezhov/Рабочий стол/tst/VOTT/Output/img",
+      "tags": ["photo", "sign"]
+    },
+    {
+      "path": "/home/ezhov/Рабочий стол/tst/VOTT/Output/cat",
+      "tags": ["category"]
+    }
+  ]
 }

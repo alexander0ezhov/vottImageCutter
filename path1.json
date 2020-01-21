@@ -1,0 +1,17 @@
+{
+  "projectPath": "/home/ezhov/Рабочий стол/tst/VottSnils/Project",
+  "output": [
+    {
+      "path": "/home/ezhov/Рабочий стол/tst/VottSnils/Output/text",
+      "tags": ["last_name", "first_name", "middle_name", "birth_place", "sex"]
+    },
+    {
+      "path": "/home/ezhov/Рабочий стол/tst/VottSnils/Output/num",
+      "tags": ["number"]
+    },
+    {
+      "path": "/home/ezhov/Рабочий стол/tst/VottSnils/Output/combined",
+      "tags": ["birth_date", "issue_date"]
+    }
+  ]
+}
